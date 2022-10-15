@@ -1,0 +1,19 @@
+{
+  "drag-ruler-l5r": {
+    "range-bands": {
+      "range0": "Touch (Range 0)",
+      "range1": "Sword (Range 1)",
+      "range2": "Spear (Range 2)",
+      "range3": "Throw (Range 3)",
+      "range4": "Bow (Range 4)",
+      "range5": "Valley (Range 5)",
+      "range6": "Sight (Range 6)"
+    },
+    "settings": {
+      "useRelativeDistance": {
+        "name": "Use relative distance measure",
+        "hint": "Whether to use relative distance (yards, yd) instead of range bands"
+      }
+    }
+  }
+}

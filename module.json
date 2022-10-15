@@ -1,0 +1,49 @@
+{
+  "id": "drag-ruler-l5r",
+  "title": "Legend of the Five Rings Range Bands",
+  "description": "Convert range ruler distance to L5R range bands.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "authors": [
+    {
+      "name": "Sebastian Klatt",
+      "email": "sebastian@markow.io",
+      "discord": "nbcmayhem#7999"
+    }
+  ],
+  "esmodules": ["scripts/main.js"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "l5r5e",
+        "type": "system",
+        "manifest": "https://gitlab.com/teaml5r/l5r5e/-/raw/master/system/system.json",
+        "compatibility": {
+          "verified": "1.9.3"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "drag-ruler",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-drag-ruler/master/module.json",
+        "compatibility": {
+          "verified": "1.13.0"
+        }
+      }
+    ]
+  },
+  "socket": true,
+  "system": ["l5r5e"]
+}
