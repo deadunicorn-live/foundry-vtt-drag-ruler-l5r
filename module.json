@@ -45,5 +45,10 @@
     ]
   },
   "socket": true,
-  "system": ["l5r5e"]
+  "system": ["l5r5e"],
+  "url": "https://github.com/deadunicorn-live/foundry-vtt-drag-ruler-l5r",
+  "download": "https://github.com/deadunicorn-live/foundry-vtt-drag-ruler-l5r/archive/v1.0.0.zip",
+  "manifest": "https://raw.githubusercontent.com/deadunicorn-live/foundry-vtt-drag-ruler-l5r/main/module.json",
+  "readme": "https://github.com/deadunicorn-live/foundry-vtt-drag-ruler-l5r/blob/master/README.md",
+  "allowBugReporter": false
 }
